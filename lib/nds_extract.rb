@@ -91,7 +91,17 @@ end
 def movies_with_directors_set(source)
 pp source
 
+new_movies_array = []
+index = 0
 
+while index < source.count do
+  names = source[index][:names]
+  new_movies_array <<
+  movies = source[index][:movies]
+  new_movies_array << movies_with_director_key(names,movies)
+  index += 1
+
+end
 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
