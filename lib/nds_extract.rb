@@ -21,7 +21,7 @@ def flatten_a_o_a(aoa)
 end
 
 def movie_with_director_name(director_name, movie_data)
-  { 
+  {
     :title => movie_data[:title],
     :worldwide_gross => movie_data[:worldwide_gross],
     :release_year => movie_data[:release_year],
@@ -37,7 +37,7 @@ def movies_with_director_key(name, movies_collection)
 
 director_by_movie = []
 index = 0
-while index < movies_collection.count do 
+while index < movies_collection.count do
     director_by_movie[index] = movie_with_director_key(name, movies_collection[index])
     index += 1 
   result_movies_collection ={}
