@@ -39,7 +39,7 @@ director_by_movie = []
 index = 0
 while index < movies_collection.length do
    director_by_movie << movie_with_director_name(name, movies_collection[index])
-   index += 1 
+   index += 1
  end
 director_by_movie
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
