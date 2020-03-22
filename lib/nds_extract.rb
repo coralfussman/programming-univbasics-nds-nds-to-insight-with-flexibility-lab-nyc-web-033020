@@ -40,7 +40,8 @@ index = 0
 while index < movies_collection.count do
     director_by_movie[index] = movie_with_director_key(name, movies_collection[index])
     index += 1
-  result_movies_collection ={}
+ end
+director_by_movie
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
   # and accumulate the returned Array of movies into a new Array that's
