@@ -102,6 +102,7 @@ while index < source.count do
   index += 1
 
 end
+new_movies_array
 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
