@@ -95,7 +95,7 @@ new_movies_array = []
 index = 0
 
 while index < source.count do
-  director_info = source[i]
+  director_info = source[index]
       directors_name = director_info[:name]
       directors_titles = director_info[:movies]
       new_movies_array.push(movies_with_director_key(directors_name, directors_titles))
