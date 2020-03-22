@@ -69,7 +69,7 @@ def gross_per_studio(collection)
     if movie_hash[:studio]
       movie_hash[:studio] += gross
     else
-      movie_hash += gross
+      movie_hash = gross
   end
     index += 1
   end
