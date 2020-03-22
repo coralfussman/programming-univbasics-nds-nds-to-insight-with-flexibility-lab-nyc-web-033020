@@ -98,7 +98,7 @@ while index < source.count do
   director_info = source[i]
       directors_name = director_info[:name]
       directors_titles = director_info[:movies]
-      directors_movies.push(movies_with_director_key(directors_name, directors_titles))
+      new_movies_array.push(movies_with_director_key(directors_name, directors_titles))
 
   index += 1
 
