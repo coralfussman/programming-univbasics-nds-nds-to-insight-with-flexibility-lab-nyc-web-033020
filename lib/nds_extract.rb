@@ -67,7 +67,8 @@ def gross_per_studio(collection)
     studio = collection[index][:studio]
     movie_hash << studio
     gross = collection[index][:worldwide_gross]
-    movie_hash += gross
+    movie_hash[:studio] += gross
+    
     index += 1
 
   end
